@@ -1,0 +1,128 @@
+
+body {
+    padding: 45px 25px;
+    font: 13px 'Avenir', Avenir, "Times New Roman",serif;
+    background: #5BC0EB;
+}
+
+#weather h1 {
+    font-size: 100px;
+    color: #31393C;
+    width: 500px;
+    margin: 0px auto;
+
+    text-align: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin-top: 325px;
+
+    display: inline;
+}
+#weather p
+{
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin-top: 325px;
+   
+}
+
+button {
+    display: block;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin-top: 250px;
+    
+    width: 250px;
+    height: 50px;
+    padding: 5px;
+    background-color: #FFCA3A;
+    color: #31393C;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    vertical-align:middle;
+    
+}
+button:hover
+{
+    background-color: #FFB400; 
+}
+#footer{
+    
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: #31393C;
+    
+}
+a,a:visited
+{
+    text-decoration: none;
+    color: #31393C;
+}
+a:hover
+{
+    color: #FFCA3A;
+}
+#label
+{
+
+    position: absolute;
+    text-align: center;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin-top: 110px;
+    margin-left: -350px;
+
+    font-size: 15px;  
+}
+
+#input 
+{    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    margin-top: 150px;
+    
+    height: 30px;
+    width: 500px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid 1px #dcdcdc;    
+}
+
+#input:focus, #input.focus 
+{
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #1192d3;
+}
